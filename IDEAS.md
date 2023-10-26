@@ -18,9 +18,39 @@ TBD
 
 ## software-type
 
+This element is probably the more complicated one to match.
+
 ### SoMeSci
 
+Here are the software types of SoMeSci : Application, Plugin, OperatingSystem, ProgrammingLanguage and CoReference.
+
+#### Application
+Statistical Package for the Social Sciences, GitHub, AFNI, MEGA, PLINK, Excel, FSL, SPSS Statistics, ImageJ, STATA, Prism, SPM, SAS, Stata, SPSS
+
+#### Plugin
+DELLY, Fiji, illuminaio, Redirector, Bioconductor, DriverNet, glmnet, PyMS, scPipe, IDEPI, MSM-All, Chaste
+
+#### OperatingSystem
+linux, MacOS, OpenSUSE, RHEL, Unix, Macintosh, Mac OS X, windows, Mac, Linux, Windows
+
+#### ProgrammingLanguage
+Fortran, IDL, JavaScript, Objective-C, Visual Basic, C#, C, Perl, C++, Java, Python, Matlab, MATLAB, R
+
 ### Softcite
+
+Here are the software types of Softcite : environment, component, implicit and software.
+
+#### environment
+SPSS, SAS, R, Stata, MATLAB, STATA, GraphPad
+
+#### component
+limma, Limma, caret, rms, PanelWhiz, Materials Studio Modules, seriation, glamm, mi, proCIs
+
+#### implicit
+script, scripts, code, program, software, library, programs, routine, routines, module
+
+#### software
+ImageJ, Mobyle, MUMMALS, Excel, AURIN, BLAST, ProbCons, PlatProm, OnlineTED, pFlexAna
 
 ### SoftMeScite
 
