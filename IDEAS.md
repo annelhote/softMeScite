@@ -1,12 +1,20 @@
 # By sementical elements
 
+Softcite guidelines for annotations can be found here: https://github.com/softcite/softcite_dataset_v2/blob/master/annotation_guidelines_tei_xml.md.
+
 ## name
+
+See the abbreviation section.
 
 ### SoMeSci
 
 ### Softcite
 
+When an acronym is present, it is included in the software name.
+
 ### SoftMeScite
+
+TBD
 
 ## software-type
 
@@ -20,9 +28,15 @@
 
 ### SoMeSci
 
+SoMeSci has version, release and extension.
+
 ### Softcite
 
+Softcite has only a version element that catch the version number or the date string. If any prefix like "version", "v" or "v.", it is not included.
+
 ### SoftMeScite
+
+The SoMeSci should probably concat version and release.
 
 ## mention-type
 
