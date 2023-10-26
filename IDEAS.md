@@ -53,6 +53,11 @@ script, scripts, code, program, software, library, programs, routine, routines, 
 ImageJ, Mobyle, MUMMALS, Excel, AURIN, BLAST, ProbCons, PlatProm, OnlineTED, pFlexAna
 
 ### SoftMeScite
+* SoMeSci Application should match Softcite Software: Compare lists and see overlap.
+* SoMeSci OperatingSystems and ProgrammingLanguage should match Softcite environment: Compare lists and see overlap.
+* SoMeSci Component should match Softcite Plugin: Compare lists and see overlap.
+* Softcite implicit -> no match in SoMeSci (Re-examine Programming Languages, Re-examine URL mentions without software mentions, to update them in SoMeSci) or throw it away ?
+
 
 ## version
 
