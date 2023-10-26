@@ -87,6 +87,21 @@ Softcite uses cumulative mentions : used, created and shared. If none of them ar
 
 We should probably keep the multi valuated from Softcite and the Allusion from SoMeSci
 
+## url
+
+Direct match between SoMeSci url and Softcite url
+
+## Citation / Reference
+
+### SoMeSci
+
+SoMesci has a Citation entry.
+
+### Softcite
+
+Softcite has bibliographical reference callout "bibr".
+
+### SoftMeScite
 
 # By annotation Difference 
 
