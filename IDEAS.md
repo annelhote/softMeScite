@@ -142,6 +142,7 @@ Softcite has bibliographical reference callout "bibr".
 ### SoftMeScite
 
 Softcite needs curation, drop SoMeSci in the meantime.
+Softcite would need manual annotation about citations.
 
 # By annotation Difference 
 
@@ -160,7 +161,7 @@ Developer: "IBM Inc"
 ### SoftMeScite
 
 Regex adjustment (direction to be decided)
-Remove the dot. 
+Remove the final dot.
 
 ## Name Abbreviation/Alternative
 
@@ -177,7 +178,7 @@ Software: Statistical Package for the Social Sciences (SPSS)
 
 ### SoftMeScite
 
-Regex adjustment : Split it up 
+Regex adjustment : Split it up in softcite
 
 ## Graphpad Prism (Developer/Publisher + Software)
 
