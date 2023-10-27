@@ -39,4 +39,4 @@ If you believe you have found a security issue, please responsibly disclose by c
 
 ## Authors
 
-Anita Bandrowski, Arcangelo Massari, David Schindler, Esteban Gonzalez, Tom Honeyman, Anne L'Hôte
+[Anita Bandrowski](https://github.com/bandrow), [Esteban Gonzalez](https://github.com/esgg), [Tom Honeyman], [James Howison](https://github.com/jameshowison), [Anne L'Hôte](https://github.com/annelhote/), [Arcangelo Massari](https://github.com/arcangelo7), [David Schindler](https://github.com/dave-s477)
