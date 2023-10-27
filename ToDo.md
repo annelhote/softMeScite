@@ -23,3 +23,9 @@
 - [ ] 19. In software-name, separate name and abbreviation based on regexp. The abbreviation is supposed to be in brackets.
 - [ ] 20. use regex on software name to find the version (ex SPSS16)
 - [ ] 21. Add identifier as a label to extend it to RRID, swMATH, and other identifiers.
+
+# Extension
+- [] 22. Match RRID to PMC OA and extract sections mentioning the RRID software
+- [] 23. Setup Inter Annotator Agreement assessment for application of new data scheme 
+- [] 24. Annotate RRID artcile paragraphs based on merged scheme 
+- [] 25. Add further RRID paragraphs based on PDFs publications 
