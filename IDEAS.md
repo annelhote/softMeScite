@@ -88,6 +88,12 @@ ImageJ, Mobyle, MUMMALS, Excel, AURIN, BLAST, ProbCons, PlatProm, OnlineTED, pFl
 #### Extension 
 - SoMeSci: add extension to the software name to match Softcite annotation; Regex matching
 
+#### Packages
+- Softcite: Re-examine contexts of R and Python to adjust sub-component annotation
+
+#### Annotation
+- Setup annotation configuration for new scheme
+
 ## version
 
 ### SoMeSci
