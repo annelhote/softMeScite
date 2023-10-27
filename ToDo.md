@@ -58,3 +58,9 @@ SoMeSci separates this out and labels is separately, while Softcite doesn't. For
 - [ ] 21. Add identifier as a label to extend it to RRID, swMATH, and other identifiers.
 
 Identifiers is not coded in either dataset. (see item 12)
+
+# Extension
+- [] 22. Match RRID to PMC OA and extract sections mentioning the RRID software
+- [] 23. Setup Inter Annotator Agreement assessment for application of new data scheme 
+- [] 24. Annotate RRID artcile paragraphs based on merged scheme 
+- [] 25. Add further RRID paragraphs based on PDFs publications

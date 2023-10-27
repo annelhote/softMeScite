@@ -160,8 +160,7 @@ Developer: "IBM Inc"
 
 ### SoftMeScite
 
-Regex adjustment (direction to be decided)
-Remove the final dot.
+- SoMeSci: Remove the dot; Regex adjustment 
 
 ## Name Abbreviation/Alternative
 
@@ -195,8 +194,8 @@ Software: Graphpad Prism
 
 ### SoftMeScite
 
-Regex adjustment (direction to be decided). 
-The Problem is that the software is often called "Graphpad" by mistake even so the software name is "Prism" and the developer is "Graphpad". 
+- Due to ambiguity with other software the name was changed to "GraphPad Prism" by the publisher. 
+- SoMeSci: adjust annotation to include "Graphpad" in the software name (Regex matching) 
 
 ## Software with merged Version
 
@@ -213,8 +212,8 @@ Software: SPSS16
 
 ### SoftMeScite
 
-Regex adjustment (direction to be decided). 
-This is not generally true for all software. There is software, where the number at the end ist not the version, but actually a part of the name.
+- SoftCite: re-annotation based on regex matching strings ending in digits.  
+- Manual examination is required as this is not generally true for all software. There is software, where the number at the end is not the version, but actually a part of the name.
 
 ## Package/PlugIn descriptions
 
