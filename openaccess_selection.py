@@ -81,10 +81,10 @@ def find_article(pmid):
     return articleList
 
 if __name__ == "__main__":
-    f = open("dois_pubmed_v5.txt", "w")
+    f = open("openaccess_rrid_links.txt", "w")
 
     # Replace 'your_file.csv' with the path to your CSV file.
-    file_path = 'registry_RRID_mentions_v3.xlsx'
+    file_path = 'registry_RRID_mentions.xlsx'
 
     # Load the CSV file into a DataFrame
     df = pd.read_excel(file_path)
