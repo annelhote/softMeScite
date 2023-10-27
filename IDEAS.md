@@ -230,7 +230,7 @@ Software: "R package lme4"
 
 ### SoftMeScite
 
-Regex adjustment (direction to be decided). 
+Softcite: re-examine contexts of R and Python for package mentions and manually update them; Regex matching needed to identify them.  
 
 ## Identifier 
 
