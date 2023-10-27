@@ -5,7 +5,7 @@ During the hackaton on Mapping the Impact of Research Software in Science, we em
 
 ## Project Goal
 
-By endeavoring to harmonize the data models of these disparate datasets, we aim to construct a gold dataset that can significantly contribute to the automated extraction of software citations from scientific literature.
+By endeavoring to harmonize the data models of SoMeSci, Softcite, and RRID, we aim to construct a gold dataset that can significantly contribute to the automated extraction of software citations from scientific literature.
 ## Datasets Overview
 
 | Feature                        | [SoMeSci](https://data.gesis.org/somesci/)         | [Softcite](https://github.com/howisonlab/softcite-dataset) | [RRID](https://scicrunch.org/resources)        |
