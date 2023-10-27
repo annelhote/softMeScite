@@ -1,4 +1,4 @@
-# Hackathon-Template
+# softMeScite
 
 
 During the hackaton on Mapping the Impact of Research Software in Science, we embarked on a project aimed at harmonizing the data models of three distinct software citation datasets: SoMeSci, Softcite, and RRID. Our endeavor was geared towards laying down the groundwork for the creation of a gold dataset.
