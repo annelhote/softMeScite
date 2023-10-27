@@ -58,28 +58,35 @@ ImageJ, Mobyle, MUMMALS, Excel, AURIN, BLAST, ProbCons, PlatProm, OnlineTED, pFl
 * SoMeSci Component should match Softcite Plugin: Compare lists and see overlap.
 * Softcite implicit -> no match in SoMeSci (Re-examine Programming Languages, Re-examine URL mentions without software mentions, to update them in SoMeSci) or throw it away ?
 
-For now: when someone is interested in implicit mentions Softcite has to be used; SoMeSci could be updated with silver standard data through heuristics 
+#### Implicit mentions
+- Softcite: remove implicit mentions without an anchor (language/environment)
+- Softcite: examine anchors 
+- SoMeSci: Annotate all contexts of Softcite anchors for implicit mentions. 
+- (SoMeSci: identify further implicit mentions through heuristics based on Softcite contexts, quality issues)
 
-Subcomponent: not a standalone software
-Component matches PlugIn: There is further need for discussion on Bioconductor. 
-There are probably mismatches: Fiji. 
-Compare complete set of labels 
-Manually inspect intersection to find out mismatch
-confusion matrix based on string table 
+#### Component/PlugIn
+- Definition: not a standalone software
+- Name: use sub-component to express the dependence on other software 
+- Softcite+SoMeSci: compare mentions string-based in a table and look at the confusion; discuss mismatches
+- Known mismatches: Bioconductor, Fiji 
 
-Operating system recode in context "SPSS for Windows". (regex)
-Otherwise model: SoMeSci Application + Operating Sytem = Softcite Environment + software 
-We drop SoMeSci operating System 
+#### Operating Systems
+- Softcite: recode cases where an Operating System is mentioned as a version, e.g., "SPSS for Windows"; Regex Matching
 
-SoMeSci Programming language: drop cases where the language is not used only mentioned. 
-Re-annotate the other cases connecting them to the software.
+#### Software Merge
+- Define overlapping categories:
+- SoMeSci: merge Application and Operating System as "Software"
+- Softcite: merge Environment and Software as "Software"
 
-Implicit mention: Update softcite so it needs to be conntected to a language, this allows us to re-annotate SoMeSci contexts where a language is mentioned and update the implicit mentions in the context.
-Make a list of everything matched to an implicit mention, use this list to re-examine SoMeSci. Drop things without an anchor.
+#### Programming Languages
+- SoMeSci: drop "allusions", this ensures conformance with the Softcite definition, where programming language are considered as formal languages, and only annotated if used. 
+- SoMeSci: Re-annotate Prog other cases connecting them to the software.
 
-SoMeSci: drop co-reference 
+#### Co-Reference
+- Drop SoMeSci co-reference
 
-Add SoMeSci Extension to the name to match Softcite annotation
+#### Extension 
+- SoMeSci: add extension to the software name to match Softcite annotation; Regex matching
 
 ## version
 
