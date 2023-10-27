@@ -25,16 +25,16 @@ This element is probably the more complicated one to match.
 Here are the software types of SoMeSci : Application, Plugin, OperatingSystem, ProgrammingLanguage and CoReference.
 
 #### Application
-Statistical Package for the Social Sciences, GitHub, AFNI, MEGA, PLINK, Excel, FSL, SPSS Statistics, ImageJ, STATA, Prism, SPM, SAS, Stata, SPSS
+SPSS, Stata, SAS, SPM, Prism, STATA, ImageJ, SPSS Statistics, FSL, Excel, PLINK, MEGA, AFNI, GitHub, Statistical Package for the Social Sciences
 
 #### Plugin
-DELLY, Fiji, illuminaio, Redirector, Bioconductor, DriverNet, glmnet, PyMS, scPipe, IDEPI, MSM-All, Chaste
+Chaste, MSM-All,IDEPI, scPipe, PyMS, glmnet, DriverNet, Bioconductor, Redirector, illuminaio, Fiji, DELLY
 
 #### OperatingSystem
-linux, MacOS, OpenSUSE, RHEL, Unix, Macintosh, Mac OS X, windows, Mac, Linux, Windows
+Windows, Linux, Mac, windows, Mac OS X, Macintosh, Unix, RHEL, OpenSUSE, MacOS, linux
 
 #### ProgrammingLanguage
-Fortran, IDL, JavaScript, Objective-C, Visual Basic, C#, C, Perl, C++, Java, Python, Matlab, MATLAB, R
+Matlab, RMATLAB, Python, Java, C++, Perl, C, C#, Visual Basic, Objective-C, JavaScript, IDL, Fortran
 
 ### Softcite
 
@@ -142,6 +142,7 @@ Softcite has bibliographical reference callout "bibr".
 ### SoftMeScite
 
 Softcite needs curation, drop SoMeSci in the meantime.
+Softcite would need manual annotation about citations.
 
 # By annotation Difference 
 
@@ -160,7 +161,7 @@ Developer: "IBM Inc"
 ### SoftMeScite
 
 Regex adjustment (direction to be decided)
-Remove the dot. 
+Remove the final dot.
 
 ## Name Abbreviation/Alternative
 
@@ -177,7 +178,7 @@ Software: Statistical Package for the Social Sciences (SPSS)
 
 ### SoftMeScite
 
-Regex adjustment : Split it up 
+Regex adjustment : Split it up in softcite
 
 ## Graphpad Prism (Developer/Publisher + Software)
 
