@@ -1,17 +1,18 @@
-# Hackathon-Template
+# softMeScite
 
 
 During the hackaton on Mapping the Impact of Research Software in Science, we embarked on a project aimed at harmonizing the data models of three distinct software citation datasets: SoMeSci, Softcite, and RRID. Our endeavor was geared towards laying down the groundwork for the creation of a gold dataset.
 
 ## Project Goal
 
-By endeavoring to harmonize the data models of these disparate datasets, we aim to construct a gold dataset that can significantly contribute to the automated extraction of software citations from scientific literature.
+By endeavoring to harmonize the data models of SoMeSci, Softcite, and RRID, we aim to construct a gold dataset that can significantly contribute to the automated extraction of software citations from scientific literature.
 ## Datasets Overview
 
 | Feature                        | [SoMeSci](https://data.gesis.org/somesci/)         | [Softcite](https://github.com/howisonlab/softcite-dataset) | [RRID](https://scicrunch.org/resources)        |
 |--------------------------------|-----------------------------------------------------|-------------------------------------------------------------|------------------------------------------------|
 | **Description**                | A 5 Star Open Data Gold Standard Knowledge Graph of software mentions in scientific articles. | A dataset of software mentions in biomedical and economic research publications. | A portal for obtaining and exploring Research Resource Identifiers (RRIDs) for referencing research resources.
 | **Data Model Overview**        | Contains annotations with relation labels for additional information such as version, developer, URL, or citations. Distinguishes between different types like applications, plugins, or programming environments, and different types of mentions like usage or creation. | Contains metadata of annotated research publications and software mentions identified in these publications. Further annotated with details about the software including software version, publisher, and access URL. | Uses RRIDs - persistent and unique identifiers for referencing a research resource. Identifiers are prefixed with "RRID:" followed by a tag indicating the source authority.
+| **Number of Software Mentions**| 3,756 software mentions in 1,367 PubMed Central articles. | Identified 4,093 software mentions in ~5k open access research publications (v2.0, 2023). | 78,140 software mentions. |
 | **Domain**                     | Cross-disciplinary. | Life sciences and social sciences. | Biomedical literature and other domains referencing the generation or use of research resources.
 | **Usage**                      | Provides training samples for Named Entity Recognition, Relation Extraction, Entity Disambiguation, and Entity Linking. | Designed for supervised learning based scholarly text mining, software entity recognition in text, and investigating how software has been used for research. | Promotes research resource identification, discovery, and reuse. Facilitates citation of resources in biomedical literature and other places that reference their generation or use.
 
@@ -38,4 +39,4 @@ If you believe you have found a security issue, please responsibly disclose by c
 
 ## Authors
 
-Anita Bandrowski, Arcangelo Massari, David Schindler, Esteban Gonzalez, Tom Honeyman, Anne L'Hôte
+[Anita Bandrowski](https://github.com/bandrow), [Esteban Gonzalez](https://github.com/esgg), [Tom Honeyman], [James Howison](https://github.com/jameshowison), [Anne L'Hôte](https://github.com/annelhote/), [Arcangelo Massari](https://github.com/arcangelo7), [David Schindler](https://github.com/dave-s477)
