@@ -25,3 +25,7 @@ Contributions to this project are subject to CZI’s Contributor Covenant [code 
 ## Reporting Security Issues
 
 If you believe you have found a security issue, please responsibly disclose by contacting the repository owner via the ‘security’ tab above.
+
+## Authors
+
+Anita Bandrowski, Arcangelo Massari, David Schindler, Esteban Gonzalez, Tom Honeyman, Anne L'Hôte
