@@ -15,6 +15,13 @@ By endeavoring to harmonize the data models of these disparate datasets, we aim 
 | **Domain**                     | Cross-disciplinary. | Life sciences and social sciences. | Biomedical literature and other domains referencing the generation or use of research resources.
 | **Usage**                      | Provides training samples for Named Entity Recognition, Relation Extraction, Entity Disambiguation, and Entity Linking. | Designed for supervised learning based scholarly text mining, software entity recognition in text, and investigating how software has been used for research. | Promotes research resource identification, discovery, and reuse. Facilitates citation of resources in biomedical literature and other places that reference their generation or use.
 
+## Resources
+* openaccess_rrid_links.txt: Collection of the links of open access publications with software mentions from the RRID repository.
+* Registry of RRID mentions. DOI: 10.5281/zenodo.10048228
+* openaccess_selection.py: Script to select open access publications (and links to the RRID annotations) from the Registry. It uses the PubMed API to detect open access publications.
+
+The collection of links will be used in the future to extract the sentences of software mentions. 
+
 ## About this project
 
 This repository was developed as part of the [Mapping the Impact of Research Software in Science](https://github.com/chanzuckerberg/software-impact-hackathon-2023) hackathon hosted by the Chan Zuckerberg Initiative (CZI). By participating in this hackathon, owners of this repository acknowledge the following:
