@@ -1,16 +1,19 @@
 # Hackathon-Template
 
-This is a template repo for external hackathon projects. Please build your project off of this template:
-1. Click the ‘use this template’ button above to create a new repository, and choose an appropriate name for your project. The suggested naming scheme is: `SoftwareImpactHackathon2023_PROJECT`.
-2. Turn on basic [security features](https://docs.github.com/en/code-security/getting-started/github-security-features) for your repository under Settings -> Security and Analysis. We strongly recommend you enable at least [Private vulnerability reporting](https://docs.github.com/en/code-security/security-advisories/working-with-repository-security-advisories/configuring-private-vulnerability-reporting-for-a-repository), [Dependabot security updates](https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates) and [Secret Scanning](https://docs.github.com/en/code-security/secret-scanning/configuring-secret-scanning-for-your-repositories).
-3. Add your project link and description to the list of hackathon projects we’re curating at https://github.com/chanzuckerberg/software-impact-hackathon-2023 , by making a pull request to that repo.
-4. Add your name or an appropriate copyright owner to the LICENSE file. CZI will not own the code in your repository.
-5. [Grant privileges](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository)  to other collaborators, if desired.
-6. Replace this section of the readme and the above "Hackathon-Template" heading with an appropriate readme and title for your project.
 
-*Please do not modify or delete any other part of the readme below this line.*
+During the hackaton on Mapping the Impact of Research Software in Science, we embarked on a project aimed at harmonizing the data models of three distinct software citation datasets: SoMeSci, Softcite, and RRID. Our endeavor was geared towards laying down the groundwork for the creation of a gold dataset.
 
-***
+## Project Goal
+
+By endeavoring to harmonize the data models of these disparate datasets, we aim to construct a gold dataset that can significantly contribute to the automated extraction of software citations from scientific literature.
+## Datasets Overview
+
+| Feature                        | [SoMeSci](https://data.gesis.org/somesci/)         | [Softcite](https://github.com/howisonlab/softcite-dataset) | [RRID](https://scicrunch.org/resources)        |
+|--------------------------------|-----------------------------------------------------|-------------------------------------------------------------|------------------------------------------------|
+| **Description**                | A 5 Star Open Data Gold Standard Knowledge Graph of software mentions in scientific articles. | A dataset of software mentions in biomedical and economic research publications. | A portal for obtaining and exploring Research Resource Identifiers (RRIDs) for referencing research resources.
+| **Data Model Overview**        | Contains annotations with relation labels for additional information such as version, developer, URL, or citations. Distinguishes between different types like applications, plugins, or programming environments, and different types of mentions like usage or creation. | Contains metadata of annotated research publications and software mentions identified in these publications. Further annotated with details about the software including software version, publisher, and access URL. | Uses RRIDs - persistent and unique identifiers for referencing a research resource. Identifiers are prefixed with "RRID:" followed by a tag indicating the source authority.
+| **Domain**                     | Cross-disciplinary. | Life sciences and social sciences. | Biomedical literature and other domains referencing the generation or use of research resources.
+| **Usage**                      | Provides training samples for Named Entity Recognition, Relation Extraction, Entity Disambiguation, and Entity Linking. | Designed for supervised learning based scholarly text mining, software entity recognition in text, and investigating how software has been used for research. | Promotes research resource identification, discovery, and reuse. Facilitates citation of resources in biomedical literature and other places that reference their generation or use.
 
 ## About this project
 
